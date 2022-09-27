@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (min-width:969px) and (max-width:1024px){
+.hero{min-height:800px;}	
+}
+
+@media screen and (max-width:1023px) {
+.hero{min-height:650px;}	
+.bsnav-sticky-slide .navbar-nav{margin-top:0;}	
+.testimonialbox .authorname{font-size:18px;}
+.navbar-toggler .navbar-toggler-icon, .navbar-toggler .navbar-toggler-icon::before, .navbar-toggler .navbar-toggler-icon::after{background-color:#fff !important;}
+}
+
+
+@media screen and (max-width: 767px) {
+.navbar-brand img{max-width:200px; margin-bottom:0;}
+.bsnav-sticky-slide .navbar-nav{margin-top:0;}
+.navbar-toggler .navbar-toggler-icon{background-color:#fff !important;}
+.hero{min-height:510px;}
+.hero h1{font-size:30px;}
+.hero h1 span img{max-width:20px;}
+.bsnav-sticky.bsnav-sticky-slide{background:#000;}
+.testimonialbox .owl-theme .owl-dots{display:block;}
+.testimonialbox .owl-theme .owl-nav, .testimonialbox .owl-carousel .owl-nav.disabled{display:none;}
+.servicesection{text-align:center;}
+.testimonialbox{text-align:center;}
+.blogbox .rel{margin-bottom:15px;}
+.footer ul{margin-bottom:15px;}
+.footer li img{max-width:40px;}
+.footer{text-align:center;}
+}
+
+
+@media screen and (max-width:479px){
+.hero{min-height:350px;}
+}
